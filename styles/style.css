@@ -1,0 +1,52 @@
+@import "reset.css";
+@font-face{
+  font-family: ubuntu;
+  	src: url("ubuntu.ttf");
+}
+
+html * {max-height:1000000px;}
+
+body {
+    background-color: #E5E5E5;
+    min-width: 620px;
+}
+
+#soc {
+    width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.holder{
+    position:relative;
+    height:28px;
+    background:#800080;
+    margin:0px auto;
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(128,0,128, 1);
+    padding:5px;
+    display:none;
+    font-family: ubuntu;
+    color: #E5E5E5;
+}
+.holder:hover .block{
+    display:block;
+}
+
+#name{
+	color: #800080;
+	font-size: 40pt;
+	margin: 100px auto;
+    width: 440px;
+    text-align: center;
+    font-family: ubuntu;
+}
+
+#logo{
+	margin: 30px auto;
+}
